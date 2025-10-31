@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "E2E_E2EGroupSync": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7083",
+      "launchBrowser": false
+    }
+  }
+}

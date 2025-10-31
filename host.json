@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+
+    // Identity choice:
+    "USE_MANAGED_IDENTITY": "false",                       // "false" to use client credentials
+    "TENANT_ID": "6e0b3bc1-0ced-4b99-b4fd-ea205864dd6a",
+    "CLIENT_ID": "072100c8-b8df-483c-92a4-d3c4eaf9efd0",
+    "CLIENT_SECRET": "zlG8Q~tLuXq2LE9018OjETmDUxyUZ4teNIz5Bcar",
+
+    // Graph
+    "GRAPH_SCOPE": "https://graph.microsoft.com/.default",
+
+    // Dataverse
+    "DATAVERSE_URL": "https://orgb5ec36f0.crm4.dynamics.com",
+    "DATAVERSE_SCOPE": "https://orgb5ec36f0.crm.dynamics.com/.default"
+  }
+}
